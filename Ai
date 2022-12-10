@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Texaco Star Theater</title>
+  <style>
+    /* Style the body and the dropdown menu */
+    body {
+      background-image: url("https://picsum.photos/1920/1080");
+      background-size: cover;
+      margin: 0;
+      padding: 0;
+    }
+    .dropdown {
+      position: relative;
+      display: inline-block;
+      padding: 10px;
+      color: white;
+      font-size: 20px;
+    }
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: rgba(0,0,0,0.8);
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+    }
+    .dropdown-content a {
+      color: white;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+    }
+    .dropdown-content a:hover {
+      background-color: rgba(0,0,0,0.5);
+    }
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+    /* Style the scroll box */
+    .scrollbox {
+      overflow-y: scroll;
+      height: 80%;
+      width: 80%;
+      margin: auto;
+      padding: 10px;
+      background-color: rgba(255,255,255,0.8);
+      color: black;
+      font-size: 18px;
+      border: 3px solid black;
+    }
+  </style>
+</head>
+<body>
+  <div class="dropdown">
+    <span>Outline</span>
+    <div class="dropdown-content">
+      <a>Introduction of Dr. John Turing and his AI invention, Eve</a>
+      <a>Demonstration of Eve's abilities and interaction with the audience</a>
+      <a>Appearance of two political figures: Senator Smith and Mayor Johnson</a>
+      <a>Discussion of the potential implications and risks of
